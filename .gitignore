@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+output/
+*.bin
+
+# Go
+go.sum
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Test
+coverage.out

@@ -5,16 +5,16 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/mift-enterprise/recon/internal/planner"
-	"github.com/mift-enterprise/recon/internal/executor"
-	"github.com/mift-enterprise/recon/internal/correlator"
-	"github.com/mift-enterprise/recon/internal/reporter"
+	"github.com/zxchx/recon/internal/planner"
+	"github.com/zxchx/recon/internal/executor"
+	"github.com/zxchx/recon/internal/correlator"
+	"github.com/zxchx/recon/internal/reporter"
 )
 
 var rootCmd = &cobra.Command{
 	Use:   "recon",
 	Short: "RECON - Rapid Exploit Confirmation & Offensive Recon",
-	Long:  `Agentic bug bounty assistant: plan → execute → correlate → report.`,
+	Long:  `Automated bug bounty assistant: plan → execute → correlate → report.`,
 }
 
 var scanCmd = &cobra.Command{
